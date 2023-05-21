@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/*HEADER E NAV BAR INICIO*/
+header {
+  margin: 0 auto;
+  padding: 27px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header nav ul {
+  display: flex;
+  gap: 46px;
+  list-style: none;
+}
+header nav ul li a {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+/*HEADER E NAV BAR FIM*/
+
+/*SECTION INICIO*/
+#inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/painel.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 60vh;
+}
+.title-inicio h1 {
+  margin: 0 auto;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+}
+/*SECTION INICIO - FIM*/
+
+/*SECTION QUEM SOMOS - COMEÇO*/
+#quem-somos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 600px;
+}
+.container {
+  width: 702px;
+  height: 402px;
+}
+.container img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 70px;
+}
+.title-quem-somos {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 37px;
+}
+.text1 {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+/*SECTION QUEM SOMOS - fim*/
+
+/*SECTION LADRILHOS - COMEÇO*/
+#ladrilhos {
+  width: 100vw;
+  height: 600px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.left-box{
+    width: 50%;
+}
+.right-box{
+    width: 50%;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+.row1 .img1{
+    width: 50%;
+}
+.row3{
+   display: flex;
+   flex-direction: column;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+
+/*SECTION LADRILHOS - FIM*/
+
+/*SECTION ONDE ESTAMOS - COMEÇO*/
+#onde-estamos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 600px;
+}
+.text2 {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}
+/*SECTION ONDE ESTAMOS - FIM*/
+
+/*SECTION Contato - COMEÇO*/
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: url(../images/fundo-contato.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  background-clip: cover;
+  width: 100vw;
+  height: 600px;
+  gap: 30%;
+}
+.card-contato {
+  display: flex;
+  flex-direction: column;
+}
+.header-contato {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 342px;
+  height: 179px;
+
+  color: #ffffff;
+}
+.contato {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+}
+.funcionamento {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+}
+/*SECTION Contato - FIM*/
+
+/*FOOTER - COMEÇO*/
+footer {
+  padding: 30px;
+  background: url(../images/fundo-rodape.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-wrapper ul {
+  display: flex;
+  gap: 46px;
+  list-style: none;
+}
+.footer-wrapper ul li a {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #fdfdfd;
+}
+.socialmedia {
+  display: flex;
+  gap: 20px;
+}
+.socialmedia img {
+  width: 20px;
+  height: 20px;
+}
